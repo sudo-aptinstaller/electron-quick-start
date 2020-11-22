@@ -1,0 +1,25 @@
+{
+  "name": "scrapein",
+  "version": "1.0.0",
+  "description": "An Automation software that would automate the process of handling a linkedin profile",
+  "main": "application/scripts/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . ScrapeIN --platform=win32 --out=dist"
+  },
+  "repository": "https://github.com/sudo-aptinstaller/scrapein",
+  "keywords": [],
+  "author": "sudo-aptinstaller",
+  "license": "freeware",
+  "devDependencies": {
+    "electron": "^10.1.5"
+  },
+  "dependencies": {
+    "electron-devtools-installer": "^3.1.1",
+    "crypto-js": "^4.0.0",
+    "electron-extensions": "^7.0.0-beta.3",
+    "electron-packager": "^15.1.0",
+    "fs": "0.0.1-security",
+    "jquery": "^3.5.1"
+  }
+}
