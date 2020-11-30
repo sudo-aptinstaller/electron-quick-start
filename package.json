@@ -1,22 +1,22 @@
 {
-  "name": "electron-quick-start",
+  "name": "scrapein",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
-  "main": "main.js",
+  "description": "An Automation software that would automate the process of handling a linkedin profile",
+  "main": "application/scripts/main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
-  ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "repository": "https://github.com/sudo-aptinstaller/scrapein",
+  "keywords": [],
+  "author": "sudo-aptinstaller",
+  "license": "freeware",
   "devDependencies": {
-    "electron": "^10.1.5"
+    "electron": "^10.1.5",
+    "electron-devtools-installer": "^3.1.1"
+  },
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "fs": "0.0.1-security",
+    "jquery": "^3.5.1"
   }
 }
